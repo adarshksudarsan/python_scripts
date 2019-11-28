@@ -5,7 +5,8 @@ import sys
 
 directory = '/home/vvdn/Desktop/image_manipulations/images'
 a,b=input('Enter required width * height seperated by "*"').split("*")
-
+if not os.path.exists(output_directory):
+        os.makedirs(output_directory)
 for file_name in os.listdir(directory):
     image = Image.open(os.path.join(directory, file_name))
 
