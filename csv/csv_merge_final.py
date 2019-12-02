@@ -1,7 +1,6 @@
-
-# coding: utf-8
-
-# In[ ]:
+'''
+script to merge multiple csv files to a single big one
+'''
 
 
 import pandas as pd
@@ -31,5 +30,5 @@ frame2['head'] =0
 #csv merging
 bigdata = frame1.append(frame2, ignore_index=True)
 # give path for final output
-bigdata.to_csv('/home/vvdn/Desktop/final.csv')
+bigdata.to_csv('/home/vvdn/Desktop/final.csv',index=False,header=False)
 print("sucessfully Merged your csv files ")
