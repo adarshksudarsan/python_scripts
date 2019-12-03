@@ -6,6 +6,7 @@
 
 import os
 import math
+#give path
 size_bytes= os.path.getsize('/home/vvdn/Desktop/final2.csv')
 print(size_bytes)
 def convert_size(size_bytes): 
