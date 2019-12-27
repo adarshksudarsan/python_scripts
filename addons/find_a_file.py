@@ -20,4 +20,5 @@ here i have used "*" in print statement ,it is a way of displaying list in pytho
 and to view in seperate lines i have used "sep="\n""
 """ 
 print(*find('*'+sys.argv[1],sys.argv[2]),sep="\n")
+#modificationbutnomodification
 
