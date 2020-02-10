@@ -1,10 +1,12 @@
+#give the desired shape in iloc
+
 import pandas as pd
 #reading
 df1=pd.read_csv('human_ch0_complex.csv',header=None)
 
 #reshaping to desired size 
 df1=df1.iloc[0:3000,0:52]
-
+'''
 #to find amplitude
 def every(x):
     try:
@@ -13,7 +15,7 @@ def every(x):
     except:
         print("fine")
         return(x)
-
+'''
 df1=df1.applymap(every)
 
 #testing_data
