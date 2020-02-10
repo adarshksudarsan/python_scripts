@@ -15,9 +15,9 @@ def every(x):
     except:
         print("fine")
         return(x)
-'''
-df1=df1.applymap(every)
 
+df1=df1.applymap(every)
+'''
 #testing_data
 test_data=df1.iloc[2901:3000,0:52]
 
