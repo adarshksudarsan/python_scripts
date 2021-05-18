@@ -1,0 +1,3 @@
+inside conda environment doit
+for word and character count 
+"https://www.geeksforgeeks.org/python-get-number-of-characters-words-spaces-and-lines-in-a-file/"
