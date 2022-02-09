@@ -1,3 +1,17 @@
+#!/usr/bin/env python
+
+__authors__ = "Adarsh_K_Sudarsan S_Jishnu Akshay_S_Shaji"
+__license__ = "GPL-3"
+__version__ = "1.0.1"
+__maintainer__ = "Adarsh_K_Sudarsan"
+__email__ = "13rounds@protonmail.com"
+
+"""
+  simple script to fill the gaps between numerical 
+  values in a given series by calculating
+  the mean values between the numerals in the series.
+"""
+
 def writerfunc(string_list):
     index_list = []
     val = 0
